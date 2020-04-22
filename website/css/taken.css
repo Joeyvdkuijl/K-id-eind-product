@@ -1,0 +1,210 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+img{
+    border-radius: 24px;
+    position: relative;
+    box-shadow: black;
+    box-shadow: 0 5px 5px 0 rgba(238, 255, 0, 0.568), 0 11px 20px 0 rgba(238, 255, 0, 0.568);;
+}
+.fa, .fas{
+    font-size: 38px;
+    position: absolute;
+    color: white;
+}
+p{
+    color: white;
+}
+.datum {
+    display: -ms-flexbox;
+    display: flex;
+    width: 25%;
+    top: 155px;
+    right: 10px;
+    position: absolute;
+    font-size: 179%;
+}
+#name{
+    position: absolute;
+    top: 128px;
+    right: -8px;
+    font-size: 189%;
+}
+#button2 {
+    margin-bottom: 28px;
+    width: 40px;
+    height: 37px;
+    background: #00F6FF;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    transition-duration: 0.4s;
+}
+.day{
+    position: absolute;
+    top: 215px;
+    display: flex;
+    width: 100%; 
+    padding: 5px;
+}
+a{
+    padding-left: 3px;
+}
+.scedule{
+    display: flex;
+    width: 100%;
+    color: white;
+    margin-top: 20%;
+    margin-left: 2%;
+}
+.text{
+    margin-top: 0px;
+    position: absolute;
+    top: 420px;
+    left: 144px;
+}
+.text2{
+    margin-top: 0px;
+    position: absolute;
+    top: 615px;
+    left: 144px;
+}
+.size{
+    font-size: 200%;
+}
+#button3 {
+    width: 62px;
+    height: 61px;
+    background: #00F6FF;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    margin-top: 16px;
+}
+
+nav{
+    background-color: #00F6FF;
+    color: cornsilk;
+    position: fixed;
+    top: 0;
+    left: 0vw;
+    width: 50vw;
+    height: 11vh;
+    transition: left .5s ease-in-out;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    color: cornsilk;
+    font-size: 1.2em;
+    padding: 1em 2em;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid cornsilk;
+    background-color:#00F6FF ;
+}
+
+nav a.actieRight{
+    padding: 1em 1.3em;
+    border-left: .7em solid cornsilk;
+    /* border-right: .7em solid cornsilk; */
+}
+
+#menu-schuiver:checked ~ nav{
+    left: -100vw;
+}
+
+#menu-schuiver{
+    display: none;
+}
+label.haal-menu{
+    padding: 1rem 2rem;
+    display: block;
+    text-align: right;
+    font-size: 2em;
+}
+label.haal-menu2{
+    display: block;
+}
+
+#button2:focus{
+    width: 45px;
+    height: 42px;
+    transition-duration: 0.4s;
+    background-color: #F7FF00;
+    color: black;
+}
+#button4 {
+    width: 73px;
+    height: 73px;
+    background: #F7FF00;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+    margin-top: 16px;
+    margin-left: 79%;
+    font-size: 330%;
+    box-shadow: 0 5px 5px 0 rgba(238, 255, 0, 0.568), 0 11px 20px 0 rgba(238, 255, 0, 0.568);;
+}
+
+.line{
+    margin-left: 10%;
+    margin-top: 0;
+    font-size: 250%;
+}
+
+.scedule2 {
+    display: flex;
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+#button5 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 28px;
+    width: 40px;
+    height: 37px;
+    background: #F7FF00;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-size: 25px;
+    transition-duration: 0.4s;
+}

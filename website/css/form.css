@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight:300 ;
+}
+
+/* Registrer.html */
+#login-box{
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    background: #fff;
+}
+.left-box{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+
+}
+
+h1{
+    margin-bottom: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+#input
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 0px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+* {box-sizing: border-box;}
+#input{
+    width: 100%;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+#input:focus {
+    border: 2px solid dodgerblue;
+  }
+
+#button{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #00f7ff;
+    border: none;
+    border-radius: 2px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+#button2{
+    margin-bottom: 28px;
+    width: 40px;
+    height: 37px;
+    background: #F7FF00;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.quest{
+    position: absolute;
+    bottom: -58px;
+    right: 4px;
+    color: gray;
+}
+.quest2{
+    position: absolute;
+    bottom: -59px;
+    right: 4px;
+    color: gray;
+}
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+  }
+  .fa, .fas {
+    font-weight: 900;
+    margin-top: 9px;
+}
+#opti{
+    margin-top: 10px;
+    color: red;
+    font-size: 11px;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-weight: 800;
+}
+
+
+/* Login.html */
+.Button {
+	background-color:#F7FF00;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:17px 70px;
+	text-decoration:none;
+}
+.Button:hover {
+	background-color: #F7FF00;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+.oval2{
+    margin-left: 25%;
+}
+.left-box2{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    box-sizing: border-box;
+    padding: 18px;
+    width: 300px;
+    height: 400px;
+
+}
+#login-box2{
+    position: relative;
+    margin: 5% auto;
+    height: 310px;
+    background: #fff;
+}
+.left-box2 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    box-sizing: border-box;
+    padding: 18px;
+    width: 300px;
+    height: 300px;
+}
+#oval {
+    width: 400px;
+    height: 186px;
+    background: black;
+    border-radius: 341px / 5px;
+    margin-top: 34%;
+  }

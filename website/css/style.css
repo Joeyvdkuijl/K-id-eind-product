@@ -1,0 +1,116 @@
+/* logo */
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) 
+  {
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border-top: 133px solid #F7FF00;
+    border-right: 149px solid transparent;
+  }
+
+.logo{
+    position: absolute;
+    top: 22px;
+    right: 24px;
+}
+
+/* Middle text */
+
+.text{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+#header{
+    margin-bottom: 5%;
+    font-size: 350%;
+    margin-left: 15%;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+#middle{
+    margin-bottom: 10%;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+}
+#under{
+    font-size: 150%;
+    font-weight: bold;
+}
+#line{
+    margin-top: 5%;
+    width: 90%;
+    font-weight: bold;
+}
+}
+
+/* Buttons */
+.oval2{
+    margin-left: 2%;
+}
+
+
+.myButton {
+    margin-bottom: 5%;
+	background-color:#00f7ff;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:17px 46px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#00f7ff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.Button {
+	background-color:#F7FF00;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:17px 70px;
+	text-decoration:none;
+}
+.Button:hover {
+	background-color: #F7FF00;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+
+.color{
+    background-color: #000000;
+    bottom: 0;
+    padding-bottom: 15%;
+    position: absolute;
+}  
+.half-circle {
+    width: auto;
+    height: 85px;
+    background-color: #000000;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 10px solid #000000;
+    border-bottom: 0;
+    margin-top: 38%;
+}
